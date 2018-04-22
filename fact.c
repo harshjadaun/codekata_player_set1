@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()
+void main()
 {
     int n,fact=1,i;
     scanf("%d",&n);
@@ -12,6 +12,4 @@ int main()
         fact*=i;
     }
     printf("%d\n",fact);
-
-    return 0;
 }
